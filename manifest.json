@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Timefy",
-    "version": "2.0",
+    "version": "2.1",
     "description": "Display the sum of all video length on a YouTube playlist.",
     "icons": {
         "48": "icons/time-48.png",
