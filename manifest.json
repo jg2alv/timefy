@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "Timefy",
+    "version": "2.0",
+    "description": "Display the sum of all video length on a YouTube playlist.",
+    "icons": {
+        "48": "icons/time-48.png",
+        "96": "icons/time-96.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*.youtube.com/playlist*"
+            ],
+            "js": [
+                "thirdParty/jquery-3.5.1.slim.min.js",
+                "timefy.js"
+            ]
+        }
+    ]
+}
