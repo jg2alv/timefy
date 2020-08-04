@@ -45,7 +45,7 @@
 
         // Need to insert document into DOM before setting its innerHTML to avoid "<!--css-build:shady-->"
         $('#stats').append(tag);
-        tag.html(`${h}:${m}:${s}`);
+        tag.innerHTML = `${h}:${m}:${s}`;
     };
 
     // In case of playlist lazy-loading
