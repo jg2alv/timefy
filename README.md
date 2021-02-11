@@ -1,6 +1,6 @@
 # timefy
 
-This is the source code for the Timefy extension.
+This is the source code for the Timefy browser extension.
 
 Note that the extension uses [jQuery 3.5.1 slim version](https://code.jquery.com/jquery-3.5.1.slim.min.js).
 
